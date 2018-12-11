@@ -11,6 +11,7 @@ keywords = ["crypto", "block-cipher", "ciphers"]
 [dependencies]
 block-padding = "0.1"
 block-cipher-trait = "0.6"
+byteorder = { version = "1", default-features = false }
 
 [dev-dependencies]
 aes-soft = "0.3"

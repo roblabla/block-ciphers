@@ -21,3 +21,5 @@ mod ofb;
 pub use ofb::Ofb;
 mod pcbc;
 pub use pcbc::Pcbc;
+mod xts;
+pub use xts::Xts128;
